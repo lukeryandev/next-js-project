@@ -31,6 +31,7 @@ const DUMMY_EVENTS = [
   },
 ];
 
+//looks at the isFeatured element on the objects.
 export function getFeaturedEvents() {
   return DUMMY_EVENTS.filter((event) => event.isFeatured);
 }
@@ -39,6 +40,7 @@ export function getAllEvents() {
   return DUMMY_EVENTS;
 }
 
+//helper to filter by date
 export function getFilteredEvents(dateFilter) {
   const { year, month } = dateFilter;
 
