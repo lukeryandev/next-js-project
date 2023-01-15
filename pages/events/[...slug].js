@@ -1,3 +1,5 @@
+import { getAllEvents } from "../../dummy-data";
+
 function FilteredEventPage() {
   return (
     <div>
